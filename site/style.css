@@ -1,0 +1,42 @@
+li {
+    list-style: none;
+}
+
+li:nth-child(1) {
+    background-color: white;
+}
+
+p {
+    font-family: 'Arvo', 'Arial';
+    color:darkblue;
+}
+h1 {
+    color: rgb(146, 218, 146);
+    font-family: 'Noto Sans JP';
+    font-size: 70px;
+}   
+
+li > a:link, li > a:visited {
+    color:aqua;
+    text-decoration:none;
+    border: 1px solid rgb(123, 149, 240);
+    background-color: rgb(255, 0, 0);
+    display:block;
+    width:200px;
+}
+
+
+
+li > a:hover {
+    color:purple;
+    width:500px;
+    height:500px;
+}
+
+li > a.what2:active {
+    background-color: chocolate;
+}
+
+li:nth-child(2) {
+ font-size: 12px;
+}
